@@ -1,0 +1,14 @@
+.header {
+  margin-top: 20px;
+}
+.header__container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+.header_announcement {
+  text-align: center;
+}
+.header__navigation {
+  justify-self: end;
+}
